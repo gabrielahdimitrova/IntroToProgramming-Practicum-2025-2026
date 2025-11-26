@@ -1,0 +1,11 @@
+
+#include <iostream>
+
+int main()
+{
+	unsigned num;
+	std::cout << "Enter num" << std::endl;
+	std::cin >> num;
+
+	std::cout << "lastDigit" << num % 10;
+}
