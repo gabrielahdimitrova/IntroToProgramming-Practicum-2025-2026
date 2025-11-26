@@ -1,0 +1,18 @@
+
+#include <iostream>
+
+int main()
+{
+	unsigned num1;
+		std::cout << "Enter number" << std::endl;
+	std::cin >> num1;
+
+	std::cout << "Is even"; 
+	if (num1 % 2 == 0) {
+		std::cout << "true";
+	}
+	else {
+		std::cout << "false";
+	}
+	
+}
