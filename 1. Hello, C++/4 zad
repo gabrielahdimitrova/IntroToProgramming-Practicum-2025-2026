@@ -1,0 +1,17 @@
+int main()
+{
+	unsigned num1;
+	std::cout << "Enter number" << std::endl;
+	std::cin >> num1;
+
+    short units = num1 % 10;
+    short tens = (num1 / 10) % 10;
+	short hundreds = (num1 / 100) % 10;
+
+	std::cout << "units=" << units <<std::endl;
+	std::cout << "tens=" << tens << std::endl;
+	std::cout << "hundreds=" << hundreds << std::endl;
+
+	short sum = units + tens + hundreds;
+    std::cout << "sum:" << sum << std::endl; 
+}
