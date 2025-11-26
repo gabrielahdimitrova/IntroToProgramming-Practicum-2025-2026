@@ -1,0 +1,12 @@
+
+#include <iostream>
+
+int main()
+{
+	int num1, num2;
+	std::cout << "Enter 2 numbers";
+	std::cin >> num1>> num2;
+	std::cout << "Is divisor: " << std::boolalpha << (num1 != 0 && num2 % num1 == 0) << std::endl;
+
+
+}
