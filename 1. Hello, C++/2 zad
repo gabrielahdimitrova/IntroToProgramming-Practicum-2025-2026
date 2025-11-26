@@ -1,0 +1,20 @@
+#include <iostream>
+
+int main()
+{
+    double width, height;
+
+    std::cout << "Enter height";
+        std::cin >> height;
+    
+        std::cout << "Enter width";
+        std::cin >> width;
+
+    double perimeter = 2 * (height + width);
+        double area = height * width;
+
+        std::cout << "Perimeter=" << perimeter<< std::endl;
+        std::cout << "Area" << area<< std::endl;
+
+}
+
