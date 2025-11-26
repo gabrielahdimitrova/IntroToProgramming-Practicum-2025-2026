@@ -1,0 +1,15 @@
+#include <iostream>
+
+int main()
+{
+	unsigned num1,num2;
+	std::cout << "Enter 2 two-digit numbers ";
+	std::cin >> num1 >> num2;
+
+	unsigned Prod = num1 * num2;
+	unsigned lastDigit = Prod % 10;
+	std::cout << "Prod" << Prod << std::endl;
+	std::cout << "lastDigit" << lastDigit << std::endl;
+	std::cout << "Is even: " << std::boolalpha << (lastDigit % 2 == 0) << std::endl;
+
+}
