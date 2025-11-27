@@ -1,0 +1,22 @@
+#include <iostream>
+
+int main() {
+    int totalSeconds;
+    std::cin >> totalSeconds;
+
+    int days = totalSeconds / 86400;
+    int remaining = totalSeconds % 86400;
+
+    int hours = remaining / 3600;
+    remaining = remaining % 3600;
+
+    int minutes = remaining / 60;
+    int seconds = remaining % 60;
+
+    std::cout << days << " days, "
+        << hours << " hours, "
+        << minutes << " minutes, "
+        << seconds << " seconds";
+
+
+}
