@@ -5,6 +5,12 @@ int main() {
 	std::cout << "Enter number" << std::endl;
 	std::cin >> num;
 
-	std::cout << "Abs of number: " << (num > 0) * num + (num < 0) * (-num) << std::endl;
+	if (num < 0) {
+		std::cout << -num;
+	}
+	else {
+		std::cout << num;
+	}
+	return 0;
 
 }
