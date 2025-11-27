@@ -1,0 +1,24 @@
+
+
+#include <iostream>
+
+int main()
+{
+	double a, b, c;
+	std::cout << "Enter triangle sides" << std::endl;
+	std::cin >> a >> b >> c;
+    if (a <= 0 || b <= 0 || c <= 0)
+    {
+        std::cout << "Invalid input!";
+    }
+    else {
+
+        bool isTriangle = ((a + b > c)&& (a + c > b) && (b + c > a));
+
+        std::cout << "Is triangle: " << (isTriangle ? "Yes" : "No") << std::endl;
+    }
+
+
+
+
+}
