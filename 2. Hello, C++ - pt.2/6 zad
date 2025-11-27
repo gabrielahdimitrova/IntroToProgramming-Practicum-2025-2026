@@ -1,0 +1,11 @@
+#include <iostream>
+
+int main() {
+	int num1, num2, num3;
+	std::cout << "Enter three digits" << std::endl;
+	std::cin >> num1 >> num2 >> num3;
+
+	int newNum = num1 * 100 + num2 * 10 + num3;
+	std::cout << "New number" << newNum << std::endl;
+
+}
