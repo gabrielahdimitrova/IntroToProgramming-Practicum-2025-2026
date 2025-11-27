@@ -1,6 +1,7 @@
+
 #include <iostream>
 
-int main() 
+int main()
 {
 	int a, x, b;
 	std::cout << "Enter three numbers" << std::endl;
@@ -9,8 +10,11 @@ int main()
 	if (a <= x && x <= b) {
 		std::cout << "true";
 
-	}else
-  {
+	}
+	else
+	{
 		std::cout << "false";
+	}
 
-}
+	}
+
